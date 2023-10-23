@@ -1,18 +1,17 @@
 @use 'reset';
 @use 'vars';
 
-body {
-  font-family: sans-serif;
+html {
+  font-size: 62.5%;
 }
 
-/* 
-  // or you can import your own font
-  @font-face {
-    font-family: 'Roboto';
-    src: url('../assets/fonts/Roboto-Regular.ttf');
-  }
-
-  body {
-    font-family: 'Roboto', sans-serif;
-  }
-*/
+body {
+  margin: 0;
+  font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
+  color: #444;
+  background: #022c43;
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
