@@ -3,14 +3,14 @@ import './styles.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import LogoSiDark from '../../assets/images/Logo-Si-dark.png';
-import LogoSylviaDark from '../../assets/images/Logo-Sylvia-dark.png';
+import LogoSi from '../../assets/images/Logo-Si.png';
+import LogoSylvia from '../../assets/images/Logo-Sylvia.png';
 
 const Sidebar = () => (
   <div className="nav-bar">
     <Link className="logo" to="/">
-      <img src={LogoSiDark} alt="logo" />
-      <img className="sub-logo" src={LogoSylviaDark} alt="logo" />
+      <img src={LogoSi} alt="logo" />
+      <img className="sub-logo" src={LogoSylvia} alt="logo" />
     </Link>
     <nav>
       <NavLink exact="true" activeclassname="active" to="/">
