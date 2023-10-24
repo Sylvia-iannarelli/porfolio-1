@@ -11,7 +11,7 @@ const dotenv = require('dotenv-flow').config( {
 module.exports = {
   entry: [
     // SCSS
-    paths.src + '/styles/index.scss',
+    paths.src + '/index.css',
     // JS
     paths.src + '/index.js',
   ],
