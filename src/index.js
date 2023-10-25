@@ -3,10 +3,11 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import './index.css';
 
-const rootReactElement = 
+const rootReactElement = (
   <BrowserRouter>
     <App />;
   </BrowserRouter>
+);
 
 const rootReactContainer = createRoot(document.getElementById('root'));
 
