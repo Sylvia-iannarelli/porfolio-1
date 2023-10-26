@@ -14,19 +14,18 @@
     width: 100%;
     height: auto;
     bottom: 0;
-    transform: rotateZ(7deg) !important;
   }
 
   .solid-logo {
     position: absolute;
-    top: auto;
+    top: -5px;
     right: auto;
     bottom: auto;
-    left: 0;
+    left: 2px;
     margin: auto;
     width: 100%;
     opacity: 0;
-    transform: rotateZ(10deg) !important;
+    transform: rotateZ(3deg) !important;
     z-index: 1;
   }
 }

@@ -11,7 +11,7 @@ const Home = () => {
   const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'p', 'e', 'r', '.'];
 
   useEffect(() => {
-    return setTimeout(() => {
+    setTimeout(() => {
       setLetterClass('text-animate-hover');
     }, 4000);
   }, []);
@@ -25,12 +25,12 @@ const Home = () => {
           <br />
           <span className={`${letterClass} _13`}>I</span>
           <span className={`${letterClass} _14`}>'m</span>
-          <img src={LogoS} alt="dev" />
+          <img src={LogoS} alt="Logo S" />
           <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
           <br />
           <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={20} />
         </h1>
-        <h2>Full stack developer | PHP | React | Symfony</h2>
+        <h2>Full stack developer | PHP | Symfony | React</h2>
         <Link to="/contact" className="flat-button">CONTACTEZ-MOI</Link>
       </div>
       <Logo />

@@ -11,7 +11,7 @@
 
   h1 {
     color: #fff;
-    font-size: 53px;
+    font-size: 56px;
     line-height: 53px;
     margin: 0;
     font-family: 'Coolvetica';
@@ -24,7 +24,7 @@
       font-size: 18px;
       position: absolute;
       margin-top: -40px;
-      left: 15px;
+      left: -15px;
       opacity: 0.6;
     }
     
@@ -41,9 +41,9 @@
     }
 
     img {
-      width: 60px;
       margin-left: 20px;
       opacity: 0;
+      width: 60px;
       height: auto;
       animation: rotateIn 1s linear both;
       animation-delay: 1.4s;
@@ -68,10 +68,10 @@
     font-family: sans-serif;
     text-decoration: none;
     padding: 10px 18px;
-    border: 1px solid#e8c289;
+    border: 1px solid #e8c289;
     margin-top: 25px;
     float: left;
-    animation: fadeIn 1s 1.8s backwards;
+    animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
 
     &:hover {

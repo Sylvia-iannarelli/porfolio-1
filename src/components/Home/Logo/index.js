@@ -15,7 +15,7 @@ const Logo = () => {
     gsap
       .timeline()
       .to(bgRef.current, {
-        duration: 2,
+        duration: 1,
         opacity: 1,
       })
       .from(outlineLogoRef.current, {
@@ -38,7 +38,7 @@ const Logo = () => {
 
   return (
     <div className="logo-container" ref={bgRef}>
-      <img ref={solidLogoRef} className="solid-logo" src={LogoS} alt="S" />
+      <img className="solid-logo" ref={solidLogoRef} src={LogoS} alt="Logo S" />
       <svg
         width="206pt"
         height="127pt"
@@ -48,7 +48,7 @@ const Logo = () => {
       >
         <g
           className="svg-container"
-          transform="translate(0,127) scale(.1,-.1)"
+          transform="translate(0 127) scale(.1 -.1)"
           fill="none"
         >
 
