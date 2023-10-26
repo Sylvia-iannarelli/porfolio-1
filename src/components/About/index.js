@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faCss3, faGithub, faHtml5, faJs, faPhp, faReact, faSymfony,
+  faCss3, faGithub, faHtml5, faPhp, faReact, faSymfony,
 } from '@fortawesome/free-brands-svg-icons';
 import AnimatedLetters from '../AnimatedLetters';
 import './styles.scss';
@@ -39,25 +39,22 @@ const About = () => {
       <div className="stage-cube-cont">
         <div className="cubespinner">
           <div className="face1">
-            <FontAwesomeIcon icon={faPhp} color="#DD0031" />
+            <FontAwesomeIcon icon={faPhp} color="#6181b6" />
           </div>
           <div className="face2">
-            <FontAwesomeIcon icon={faSymfony} color="#DD0031" />
+            <FontAwesomeIcon icon={faReact} color="#61dafb" />
           </div>
           <div className="face3">
-            <FontAwesomeIcon icon={faJs} color="#DD0031" />
+            <FontAwesomeIcon icon={faSymfony} color="#1a171b" />
           </div>
           <div className="face4">
-            <FontAwesomeIcon icon={faReact} color="#DD0031" />
+            <FontAwesomeIcon icon={faHtml5} color="#e14e10" />
           </div>
           <div className="face5">
-            <FontAwesomeIcon icon={faHtml5} color="#DD0031" />
+            <FontAwesomeIcon icon={faCss3} color="#2465f1" />
           </div>
           <div className="face6">
-            <FontAwesomeIcon icon={faCss3} color="#DD0031" />
-          </div>
-          <div className="face7">
-            <FontAwesomeIcon icon={faGithub} color="#DD0031" />
+            <FontAwesomeIcon icon={faGithub} color="#171515" />
           </div>
         </div>
       </div>
