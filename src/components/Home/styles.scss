@@ -45,8 +45,7 @@
       opacity: 0;
       width: 60px;
       height: auto;
-      animation: rotateIn 1s linear both;
-      animation-delay: 1.4s;
+      animation: rotateIn 1s 1.4s linear both;
     }
   }
 
@@ -71,7 +70,7 @@
     border: 1px solid #e8c289;
     margin-top: 25px;
     float: left;
-    animation: fadeInAnimation 1s 1.8s backwards;
+    animation: fadeIn 1s 1.8s backwards;
     white-space: nowrap;
 
     &:hover {
