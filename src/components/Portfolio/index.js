@@ -22,7 +22,7 @@ const Portfolio = () => {
             idx={15}
           />
         </h1>
-        <div>{renderPortfolio()}</div>
+        {/* <div>{renderPortfolio()}</div> */}
       </div>
     </>
   );
