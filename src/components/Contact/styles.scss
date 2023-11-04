@@ -35,7 +35,8 @@
   input[type='email'] {
     width: 100%;
     border: 0;
-    background: #115173;
+    border-radius: 10px;
+    background: #265772;
     height: 50px;
     font-size: 16px;
     color: #fff;
@@ -46,7 +47,8 @@
   textarea {
     width: 100%;
     border: 0;
-    background: #115173;
+    border-radius: 10px;
+    background: #265772;
     height: 50px;
     font-size: 16px;
     color: #fff;
@@ -65,6 +67,13 @@
     border: 1px solid #e8c289;
     float: right;
     border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background: #e8c289;
+      color: #333;
+    }
+
   }
 }
 
